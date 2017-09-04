@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Sercan Doğan">
+<meta name="description" content="yol defteri">
+<meta name="generator" content="Hugo 0.26" />
+<title>blogdown nedir, nasıl kurulur?</title>
+<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="/css/monosocialiconsfont.css">
+
+
+
+<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Sercan Doğan" />
+
+
+<meta property="og:title" content="blogdown nedir, nasıl kurulur?" />
+<meta property="og:description" content="blogdown R markdown ve Hugo tabanlı statik web siteleri oluşturmaya yarayan açık kaynak bir R paketidir. Daha da basit dille söylersem, bir R fonksiyonu sayesinde blog kurup, yine bir fonksiyon sayesinde blog yazısı oluşturabilirsiniz.
+— Nasıl kurulur?
+devtools paketiniz kurulu ise aşağıdaki fonksiyon ile ilk adımı atabiliriz. devtools::install_github(&#39;rstudio/blogdown&#39;)
+Ardından Hugo’ya ihtiyacımız olduğu için, blogdown::install_hugo() ile hugo’yu da yükleyebiliriz. Bundan sonrası daha da basit.
+blogdown::new_site(dir = &#39;blogdown_source&#39;, theme = &#39;kakawait/hugo-tranquilpeak-theme&#39;)
+dir parametresi blogu kurmak istediğimiz dosya theme kullanmak istediğimiz tema." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/blogdown-nedir-nas%C4%B1l-kurulur/" />
+
+
+
+<meta property="article:published_time" content="2017-09-05T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-09-05T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="blogdown nedir, nasıl kurulur?">
+<meta itemprop="description" content="blogdown R markdown ve Hugo tabanlı statik web siteleri oluşturmaya yarayan açık kaynak bir R paketidir. Daha da basit dille söylersem, bir R fonksiyonu sayesinde blog kurup, yine bir fonksiyon sayesinde blog yazısı oluşturabilirsiniz.
+— Nasıl kurulur?
+devtools paketiniz kurulu ise aşağıdaki fonksiyon ile ilk adımı atabiliriz. devtools::install_github(&#39;rstudio/blogdown&#39;)
+Ardından Hugo’ya ihtiyacımız olduğu için, blogdown::install_hugo() ile hugo’yu da yükleyebiliriz. Bundan sonrası daha da basit.
+blogdown::new_site(dir = &#39;blogdown_source&#39;, theme = &#39;kakawait/hugo-tranquilpeak-theme&#39;)
+dir parametresi blogu kurmak istediğimiz dosya theme kullanmak istediğimiz tema.">
+
+
+<meta itemprop="dateModified" content="2017-09-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="155">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="blogdown nedir, nasıl kurulur?"/>
+<meta name="twitter:description" content="blogdown R markdown ve Hugo tabanlı statik web siteleri oluşturmaya yarayan açık kaynak bir R paketidir. Daha da basit dille söylersem, bir R fonksiyonu sayesinde blog kurup, yine bir fonksiyon sayesinde blog yazısı oluşturabilirsiniz.
+— Nasıl kurulur?
+devtools paketiniz kurulu ise aşağıdaki fonksiyon ile ilk adımı atabiliriz. devtools::install_github(&#39;rstudio/blogdown&#39;)
+Ardından Hugo’ya ihtiyacımız olduğu için, blogdown::install_hugo() ile hugo’yu da yükleyebiliriz. Bundan sonrası daha da basit.
+blogdown::new_site(dir = &#39;blogdown_source&#39;, theme = &#39;kakawait/hugo-tranquilpeak-theme&#39;)
+dir parametresi blogu kurmak istediğimiz dosya theme kullanmak istediğimiz tema."/>
+<meta name="twitter:site" content="@https://www.twitter.com/evreninmuhtari"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+ 		<a href='/about/'>About</a>
+  	
+
+	
+		<a class="cta" href="/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>blogdown nedir, nasıl kurulur?</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        September 5, 2017
+        <br>
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        <p><strong>blogdown</strong> R markdown ve Hugo tabanlı statik web siteleri oluşturmaya yarayan açık kaynak bir R paketidir. Daha da basit dille söylersem, bir R fonksiyonu sayesinde blog kurup, yine bir fonksiyon sayesinde blog yazısı oluşturabilirsiniz.</p>
+<p>— Nasıl kurulur?<br />
+<em>devtools</em> paketiniz kurulu ise aşağıdaki fonksiyon ile ilk adımı atabiliriz. <code>devtools::install_github('rstudio/blogdown')</code><br />
+Ardından Hugo’ya ihtiyacımız olduğu için, <code>blogdown::install_hugo()</code> ile hugo’yu da yükleyebiliriz. Bundan sonrası daha da basit.</p>
+<p><code>blogdown::new_site(dir = 'blogdown_source',             theme = 'kakawait/hugo-tranquilpeak-theme')</code></p>
+<p><code>dir</code> parametresi blogu kurmak istediğimiz dosya <code>theme</code> kullanmak istediğimiz tema. Temayı <a href="https://themes.gohugo.io/">bu linkten</a> seçebilirsiniz.</p>
+<p>Ve <code>blogdown::serve_site()</code> ile web sitenizi kurarak, tarayıcıda çalıştırır.</p>
+<p>Bu aşamadan sonra <code>config.toml</code> dosyasını düzenleyerek devam edebilirsiniz. Eğer bu dosyanın içinde <code>publishDir</code> diye bir parametre yoksa ekleyip blogun yayınlanacağı klasörü seçebilirsiniz. Benim için <code>../sercandogan.github.io</code>idi.</p>
+<p>— Nasıl yeni yazı yazılır?<br />
+<code>blogdown::new_post(title = &quot;&lt;başlık ismi&gt;&quot;)</code> yazarak R markdown oluşturup blog yazısı yazmaya başlayabilirsiniz.</p>
+<p>En son olarak <code>blogdown::build_site()</code> web sitenizi başta <code>publishDir</code> ile belirttiğiniz klasöre statik web sayfası olarak kurar. Buradan sunucunuza dosyalarınızı taşıyarak yayına alabilirsiniz.</p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/http://www.twitter.com/evreninmuhtari">
+    <img class="avatar" src="/images/avatar.png">
+    <div>
+        <span class="dark">Sercan Doğan</span>
+        <span>I&#39;m an blogger.</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=%2fpost%2fblogdown-nedir-nas%25C4%25B1l-kurulur%2f - blogdown%20nedir%2c%20nas%c4%b1l%20kurulur%3f by @http%3a%2f%2fwww.twitter.com%2fevreninmuhtari"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+
+
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/post/merhaba-yery%C3%BCz%C3%BC/">merhaba yeryüzü!<aside class="dates">Sep 4 2017</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+    <p class="small">
+    
+        © Copyright 2017 Sercan Doğan
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+</body>
+</html>

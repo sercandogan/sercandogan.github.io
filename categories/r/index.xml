@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sercan Doğan</title>
-    <link>/</link>
-    <description>Recent content on Sercan Doğan</description>
+    <title>R on Sercan Doğan</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Sercan Doğan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,19 +23,6 @@ devtools paketiniz kurulu ise aşağıdaki fonksiyon ile ilk adımı atabiliriz.
 Ardından Hugo’ya ihtiyacımız olduğu için, blogdown::install_hugo() ile hugo’yu da yükleyebiliriz. Bundan sonrası daha da basit.
 blogdown::new_site(dir = &#39;blogdown_source&#39;, theme = &#39;kakawait/hugo-tranquilpeak-theme&#39;)
 dir parametresi blogu kurmak istediğimiz dosya theme kullanmak istediğimiz tema.</description>
-    </item>
-    
-    <item>
-      <title>merhaba yeryüzü!</title>
-      <link>/post/merhaba-yery%C3%BCz%C3%BC/</link>
-      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/merhaba-yery%C3%BCz%C3%BC/</guid>
-      <description>Merhaba,
-bu blog yazısı tesadüfen denk geldiğim blogdown[1] ismini görüp araştırmamla meydana geliyor. Bir blog tutma fikrim yoktu ve bunu bir IDE’denin editöründe yazacağım aklımdan geçmezdi.
-— Neden bir blog tutma kararı aldım?
-Yaşamımın bu döneminde teknik konularda öğrenme açlığı çekiyorum ve öğrendiğimi paylaşma arzusundayım. İlgilendim pek çok konuda not defterime bir şeyler karalamış biri olarak, bu alışkanlığımı devam ettirip aynı zamanda bir öğrenci olarak öğrendiğimi paylaşmak istiyorum.
-— Ne yazacağım?</description>
     </item>
     
   </channel>

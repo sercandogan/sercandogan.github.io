@@ -6,10 +6,24 @@
     <description>Recent content in Posts on Sercan Doğan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blogdown nedir, nasıl kurulur?</title>
+      <link>/post/blogdown-nedir-nas%C4%B1l-kurulur/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/blogdown-nedir-nas%C4%B1l-kurulur/</guid>
+      <description>blogdown R markdown ve Hugo tabanlı statik web siteleri oluşturmaya yarayan açık kaynak bir R paketidir. Daha da basit dille söylersem, bir R fonksiyonu sayesinde blog kurup, yine bir fonksiyon sayesinde blog yazısı oluşturabilirsiniz.
+— Nasıl kurulur?
+devtools paketiniz kurulu ise aşağıdaki fonksiyon ile ilk adımı atabiliriz. devtools::install_github(&#39;rstudio/blogdown&#39;)
+Ardından Hugo’ya ihtiyacımız olduğu için, blogdown::install_hugo() ile hugo’yu da yükleyebiliriz. Bundan sonrası daha da basit.
+blogdown::new_site(dir = &#39;blogdown_source&#39;, theme = &#39;kakawait/hugo-tranquilpeak-theme&#39;)
+dir parametresi blogu kurmak istediğimiz dosya theme kullanmak istediğimiz tema.</description>
+    </item>
     
     <item>
       <title>merhaba yeryüzü!</title>
