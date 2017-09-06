@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Sercan Doğan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pareto İlkesi ve Dağılımı</title>
+      <link>/post/pareto-ilkesi-ve-da%C4%9F%C4%B1l%C4%B1m%C4%B1/</link>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/pareto-ilkesi-ve-da%C4%9F%C4%B1l%C4%B1m%C4%B1/</guid>
+      <description>Pareto Dağılımı ve ilkesi ismini ekonomi alanına pek çok katkısı olmuş, hatta sosyoanaliz konusunda “elit” kavramının popülerleşmesini neden olmuş İtalyan ekonomist, sosyolog ve inşaat mühendisi Vilfredo Pareto’dan almıştır.
+Pareto Dağılımı Büyük olaylar nadirken, küçük olayların oldukça yaygın olmasını inceler. Pareto daha çok gelir dağılımı üzerinde durmuştur.
+ işletme: bir işletmedeki en iyi müşteriler (azınlığı oluştur) karın çoğunluğunu oluştururlar. sigorta: az miktardaki büyük alacaklar toplam alacakların çoğunluğunu oluşturur. yerleşim: az miktardaki şehirler toplam nufüsun çoğunluğunu oluşturur.</description>
+    </item>
     
     <item>
       <title>blogdown nedir, nasıl kurulur?</title>
