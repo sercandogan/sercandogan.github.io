@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Sercan Doğan</title>
-    <link>/categories/r/</link>
+    <link>https://sercandogan.github.io/categories/r/</link>
     <description>Recent content in R on Sercan Doğan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sercandogan.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pareto İlkesi ve Dağılımı</title>
-      <link>/post/pareto-ilkesi-ve-da%C4%9F%C4%B1l%C4%B1m%C4%B1/</link>
+      <link>https://sercandogan.github.io/post/pareto-ilkesi-ve-da%C4%9F%C4%B1l%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/pareto-ilkesi-ve-da%C4%9F%C4%B1l%C4%B1m%C4%B1/</guid>
+      <guid>https://sercandogan.github.io/post/pareto-ilkesi-ve-da%C4%9F%C4%B1l%C4%B1m%C4%B1/</guid>
       <description>Pareto Dağılımı ve ilkesi ismini ekonomi alanına pek çok katkısı olmuş, hatta sosyoanaliz konusunda “elit” kavramının popülerleşmesini neden olmuş İtalyan ekonomist, sosyolog ve inşaat mühendisi Vilfredo Pareto’dan almıştır.
 Pareto Dağılımı Büyük olaylar nadirken, küçük olayların oldukça yaygın olmasını inceler. Pareto daha çok gelir dağılımı üzerinde durmuştur.
  işletme: bir işletmedeki en iyi müşteriler (azınlığı oluştur) karın çoğunluğunu oluştururlar. sigorta: az miktardaki büyük alacaklar toplam alacakların çoğunluğunu oluşturur. yerleşim: az miktardaki şehirler toplam nufüsun çoğunluğunu oluşturur.</description>
@@ -24,10 +24,10 @@ Pareto Dağılımı Büyük olaylar nadirken, küçük olayların oldukça yayg�
     
     <item>
       <title>blogdown nedir, nasıl kurulur?</title>
-      <link>/post/blogdown-nedir-nas%C4%B1l-kurulur/</link>
+      <link>https://sercandogan.github.io/post/blogdown-nedir-nas%C4%B1l-kurulur/</link>
       <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/blogdown-nedir-nas%C4%B1l-kurulur/</guid>
+      <guid>https://sercandogan.github.io/post/blogdown-nedir-nas%C4%B1l-kurulur/</guid>
       <description>blogdown R markdown ve Hugo tabanlı statik web siteleri oluşturmaya yarayan açık kaynak bir R paketidir. Daha da basit dille söylersem, bir R fonksiyonu sayesinde blog kurup, yine bir fonksiyon sayesinde blog yazısı oluşturabilirsiniz.
 — Nasıl kurulur?
 devtools paketiniz kurulu ise aşağıdaki fonksiyon ile ilk adımı atabiliriz. devtools::install_github(&#39;rstudio/blogdown&#39;)

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Sercan Doğan</title>
-    <link>https://sercandogan.github.io/about/</link>
-    <description>Recent content in About on Sercan Doğan</description>
+    <title>Maillist on Sercan Doğan</title>
+    <link>https://sercandogan.github.io/maillist/</link>
+    <description>Recent content in Maillist on Sercan Doğan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Sep 2017 14:02:37 +0200</lastBuildDate>
     
-	<atom:link href="https://sercandogan.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sercandogan.github.io/maillist/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
