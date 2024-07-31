@@ -1,0 +1,28 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Sercan Dogan"
+
+[params]
+  dateFormat = "2 January 2006"
+  description = "Software Engineer, Data Engineering"
+  
+  
+
+[params.author]
+  name = "Sercan Dogan"
+  image = "img/me.jpeg"
+  headline = "Juggling Data and Engineering"
+  # bio = "A little bit about you"
+  links = [
+    { email = "mailto:sercandoganweb@gmail.com" },
+    { github = "https://github.com/sercandogan" },
+    { linkedin = "https://linkedin.com/in/dogansercan" },
+  ]
+  works = [
+    { company = "Babbel" , position = "Senior Data Engineer", start = "2022-01", location = "Berlin", icon = "babbel" },
+    { company = "Masomo (Miniclip)" , position = "Data Engineer", start = "2021-02", end = "2021-11", location = "Istanbul", icon = "masomo" },
+    { company = "Iyzico (PayU)" , position = "Data Analyst", start = "2020-07", end = "2021-02", location = "Istanbul", icon = "iyzico" },
+  ]
