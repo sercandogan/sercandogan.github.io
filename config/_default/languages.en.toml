@@ -22,7 +22,7 @@ title = "Sercan Dogan"
     { linkedin = "https://linkedin.com/in/dogansercan" },
   ]
   works = [
-    { company = "Babbel" , position = "Senior Data Engineer", start = "2022-01", location = "Berlin", icon = "babbel" },
+    { company = "Babbel" , position = "Senior Data Engineer", start = "2022-01", end = "Present", location = "Berlin", icon = "babbel" },
     { company = "Masomo (Miniclip)" , position = "Data Engineer", start = "2021-02", end = "2021-11", location = "Istanbul", icon = "masomo" },
     { company = "Iyzico (PayU)" , position = "Data Analyst", start = "2020-07", end = "2021-02", location = "Istanbul", icon = "iyzico" },
   ]
